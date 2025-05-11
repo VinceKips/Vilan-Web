@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top hsla(202, 95%, 47%, 0.5)50%,hsla(202, 95%, 47%, 0.5)50%, url(1.jpg));
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+}
+.icon{
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 15px;
+}
+.menu{
+    width: 1500px;
+    float: left;
+    height: 50px;
+    background-color: cornflowerblue;
+}
+ul{
+    float: left;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+     padding-left: 20px;
+}
+
+ul{
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 14px;
+    gap: 30px;
+     padding-left: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:rgb(7, 9, 12);
+    font-family: Arial;
+    font-weight: bold;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+ul li a:hover{
+    color: rgb(199, 81, 18);
+}
+
+.search{
+    width: 600px;
+    float: top;
+    margin-left: 1000px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid orange;
+    color: cadetblue;
+    border-right: none;
+    font-size: 16px;
+    float: top;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 1px solid orange;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: orange;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 10px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-bottom: 9%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease-in;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: blueviolet;
+}
+.content span{
+    color: black;
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: antiquewhite;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(16, 12, 4);
+    font-size: 22px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: orangered;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+::placeholder{
+    color: rgb(44, 3, 81);
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: blueviolet;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: blueviolet;
+    color: orange;
+}
+.btnn{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
